@@ -35,6 +35,8 @@ jobs:
 
       - name: Run Unit Tests
         run: php artisan test --parallel
+        env:
+          APP_KEY: base64:u8699Yp9K7N889A8u8699Yp9K7N889A8u8699Yp9K7N8=
 
   deploy-staging:
     name: "Deploy em Homologação (Tester)"
