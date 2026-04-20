@@ -38,53 +38,56 @@ jobs:
         env:
           APP_KEY: base64:IJ+bL5S4E09630g2q3WzIaKPz7SNk4hBRcAme2jmX/4=
 
-  deploy-staging:
-    name: "Deploy em Homologação (Tester)"
-    needs: test
-    if: github.ref == 'refs/heads/tester'
-    runs-on: ubuntu-latest
-    environment: staging
-    steps:
-      - uses: actions/checkout@v4
-      - name: Deploy via SSH (Staging)
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.STAGING_REMOTE_HOST }}
-          username: ${{ secrets.STAGING_REMOTE_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.STAGING_REMOTE_PORT }}
-          script: |
-            cd /var/www/lumerixa-os-staging
-            git pull origin tester
-            composer install --no-dev --optimize-autoloader
-            php artisan migrate --force
-            php artisan config:cache
-            php artisan view:cache
-            npm install --legacy-peer-deps
-            npm run build
+  # Os jobs abaixo estão comentados temporariamente pois o projeto ainda está em desenvolvimento local.
+  # Quando você tiver um servidor (VPS), basta descomentar estas linhas e configurar os GitHub Secrets.
 
-  deploy-production:
-    name: "Deploy em Produção (Main)"
-    needs: test
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - uses: actions/checkout@v4
-      - name: Deploy via SSH (Production)
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.PROD_REMOTE_HOST }}
-          username: ${{ secrets.PROD_REMOTE_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.PROD_REMOTE_PORT }}
-          script: |
-            cd /var/www/lumerixa-os
-            git pull origin main
-            composer install --no-dev --optimize-autoloader
-            php artisan migrate --force
-            php artisan config:cache
-            php artisan view:cache
-            npm install --legacy-peer-deps
-            npm run build
-            php artisan up
+  # deploy-staging:
+  #   name: "Deploy em Homologação (Tester)"
+  #   needs: test
+  #   if: github.ref == 'refs/heads/tester'
+  #   runs-on: ubuntu-latest
+  #   environment: staging
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Deploy via SSH (Staging)
+  #       uses: appleboy/ssh-action@master
+  #       with:
+  #         host: ${{ secrets.STAGING_REMOTE_HOST }}
+  #         username: ${{ secrets.STAGING_REMOTE_USER }}
+  #         key: ${{ secrets.SSH_PRIVATE_KEY }}
+  #         port: ${{ secrets.STAGING_REMOTE_PORT }}
+  #         script: |
+  #           cd /var/www/lumerixa-os-staging
+  #           git pull origin tester
+  #           composer install --no-dev --optimize-autoloader
+  #           php artisan migrate --force
+  #           php artisan config:cache
+  #           php artisan view:cache
+  #           npm install --legacy-peer-deps
+  #           npm run build
+
+  # deploy-production:
+  #   name: "Deploy em Produção (Main)"
+  #   needs: test
+  #   if: github.ref == 'refs/heads/main'
+  #   runs-on: ubuntu-latest
+  #   environment: production
+  #   steps:
+  #     - uses: actions/checkout@v4
+  #     - name: Deploy via SSH (Production)
+  #       uses: appleboy/ssh-action@master
+  #       with:
+  #         host: ${{ secrets.PROD_REMOTE_HOST }}
+  #         username: ${{ secrets.PROD_REMOTE_USER }}
+  #         key: ${{ secrets.SSH_PRIVATE_KEY }}
+  #         port: ${{ secrets.PROD_REMOTE_PORT }}
+  #         script: |
+  #           cd /var/www/lumerixa-os
+  #           git pull origin main
+  #           composer install --no-dev --optimize-autoloader
+  #           php artisan migrate --force
+  #           php artisan config:cache
+  #           php artisan view:cache
+  #           npm install --legacy-peer-deps
+  #           npm run build
+  #           php artisan up
