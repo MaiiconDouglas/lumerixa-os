@@ -3,6 +3,7 @@
 use App\Modules\Auth\Application\DTOs\RegisterWorkspaceDTO;
 use App\Modules\Auth\Application\UseCases\RegisterWorkspaceUseCase;
 use App\Modules\Auth\Application\UseCases\ValidateVerificationCodeUseCase;
+use Database\Seeders\RoleSeeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -16,6 +17,9 @@ class RegistrationTest extends TestCase
      */
     public function test_complete_onboarding_flow()
     {
+        // 0. Preparar Acl (Soberania de Papéis)
+        $this->seed(RoleSeeder::class);
+
         // 1. Simular Geração de Código OTP (Military Security)
         $email = 'test_ceo@lumerixa.os';
         $code = '123456';
