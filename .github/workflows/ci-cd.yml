@@ -1,0 +1,74 @@
+name: Lumerixa OS CI/CD
+
+on:
+  push:
+    branches: [ "main", "tester", "developer" ]
+  pull_request:
+    branches: [ "main", "tester", "developer" ]
+
+jobs:
+  test:
+    name: "Qualidade e Estabilidade"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: mbstring, xml, ctype, iconv, mysql, bcmath
+      - name: Install Dependencies
+        run: composer install --no-progress --no-suggest --prefer-dist
+      - name: Run Unit Tests
+        run: php artisan test --parallel
+
+  deploy-staging:
+    name: "Deploy em Homologação (Tester)"
+    needs: test
+    if: github.ref == 'refs/heads/tester'
+    runs-on: ubuntu-latest
+    environment: staging
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy via SSH (Staging)
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.STAGING_REMOTE_HOST }}
+          username: ${{ secrets.STAGING_REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.STAGING_REMOTE_PORT }}
+          script: |
+            cd /var/www/lumerixa-os-staging
+            git pull origin tester
+            composer install --no-dev --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan view:cache
+            npm install
+            npm run build
+
+  deploy-production:
+    name: "Deploy em Produção (Main)"
+    needs: test
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy via SSH (Production)
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.PROD_REMOTE_HOST }}
+          username: ${{ secrets.PROD_REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.PROD_REMOTE_PORT }}
+          script: |
+            cd /var/www/lumerixa-os
+            git pull origin main
+            composer install --no-dev --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan view:cache
+            npm install
+            npm run build
+            php artisan up

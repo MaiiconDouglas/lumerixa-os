@@ -1,0 +1,105 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Lumerixa OS API",
+        "description": "Documentação oficial da API do Lumerixa OS (Multi-Tenant, Gestão e Faturamento).",
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "https://api.lumerixa.com",
+            "description": "Servidor Produção"
+        },
+        {
+            "url": "http://localhost:8000",
+            "description": "Servidor Local"
+        }
+    ],
+    "paths": {
+        "/members": {
+            "get": {
+                "tags": [
+                    "Equipe"
+                ],
+                "summary": "Lista membros do Workspace",
+                "description": "Retorna a lista de usuários vinculados ao tenant ativo com seus respectivos papéis.",
+                "operationId": "8e3e9a4ca92b90c7242fa7d3dcc080bd",
+                "responses": {
+                    "200": {
+                        "description": "Lista de membros via Inertia"
+                    }
+                }
+            }
+        },
+        "/register": {
+            "get": {
+                "tags": [
+                    "Authentication"
+                ],
+                "summary": "Visualiza página de registro",
+                "operationId": "5beda7125c6972d73aee22ec1926ce30",
+                "responses": {
+                    "200": {
+                        "description": "Página Inertia Renderizada"
+                    }
+                }
+            }
+        },
+        "/auth/register": {
+            "post": {
+                "tags": [
+                    "Authentication"
+                ],
+                "summary": "Consolida Cadastro de Empresa e Usuário Master",
+                "operationId": "09eca5e760f71c34b8ea70254ef9879a",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "properties": {
+                                    "email": {
+                                        "type": "string",
+                                        "format": "email"
+                                    },
+                                    "password": {
+                                        "type": "string"
+                                    },
+                                    "tenant_name": {
+                                        "type": "string"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "302": {
+                        "description": "Redirecionamento Pós-cadastro"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "sanctum": {
+                "type": "http",
+                "description": "Digite o token gerado no login para autenticar as requisições na API.",
+                "bearerFormat": "JWT",
+                "scheme": "bearer"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "Equipe",
+            "description": "Gestão de Membros e ACL do Workspace"
+        },
+        {
+            "name": "Authentication",
+            "description": "Authentication"
+        }
+    ]
+}

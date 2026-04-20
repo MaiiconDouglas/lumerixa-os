@@ -1,1 +1,1 @@
-import './bootstrap';
+// File replaced by app.jsx

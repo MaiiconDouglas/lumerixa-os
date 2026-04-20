@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing">
+<w:body>
+    <w:bookmarkStart w:id="21" w:name="sistema-administrativo-da-lumerixa" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">Sistema Administrativo da Lumerixa</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="20" w:name="visão-geral" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Visão geral</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">A Lumerixa deve operar como uma plataforma administrativa empresarial modular, multiempresa, escalável e orientada a contexto. O sistema administrativo será o núcleo operacional do negócio, responsável por gerenciar identidade, empresas, usuários, permissões, planos, faturamento, módulos, auditoria, dados estratégicos, atendimento e inteligência operacional.</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="BodyText" /></w:pPr><w:r><w:t xml:space="preserve">O objetivo não é apenas ter um painel interno, mas um sistema empresarial completo que permita:</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1001" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">administrar a própria Lumerixa como empresa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1001" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operar clientes em arquitetura SaaS multi-tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1001" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controlar planos, módulos, faturamento e acessos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1001" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhar performance, crescimento, retenção e riscos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1001" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">oferecer base para expansão em CRM, ERP, RH, Jurídico, Projetos, Marketing e IA</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="20" />
+    <w:bookmarkEnd w:id="21" />
+    <w:bookmarkStart w:id="25" w:name="estrutura-macro-do-sistema" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">1. Estrutura macro do sistema</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="22" w:name="camadas-do-sistema" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">1.1 Camadas do sistema</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Painel Institucional Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Painel Operacional SaaS</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Painel do Cliente/Tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Camada de IA e insights</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Camada de integrações</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1002" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Camada de auditoria e compliance</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="22" />
+    <w:bookmarkStart w:id="23" w:name="tipos-de-operação" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">1.2 Tipos de operação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1003" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação interna da Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1003" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação por cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1003" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação por empresa do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1003" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação por módulo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1003" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação por plano</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="23" />
+    <w:bookmarkStart w:id="24" w:name="base-conceitual" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">1.3 Base conceitual</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">identidade principal: pessoa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contexto operacional: empresa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acesso controlado por tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos independentes e integráveis</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico obrigatório</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1004" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">IA assistiva, nunca autônoma em ação crítica</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="24" />
+    <w:bookmarkEnd w:id="25" />
+    <w:bookmarkStart w:id="71" w:name="X88771d2de4a16b926f012c9756fd4e7e3301395" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">2. Módulos do sistema administrativo da Lumerixa</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="28" w:name="módulo-core-administrativo" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.1 Módulo Core Administrativo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por toda a estrutura base.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="26" w:name="funcionalidades" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de usuários</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de empresas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">vínculo usuário x empresa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">troca de contexto empresarial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gestão de papéis</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gestão de permissões</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs globais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">configurações do sistema</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">parâmetros institucionais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">centros de custo internos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1005" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">unidades de negócio da Lumerixa</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="26" />
+    <w:bookmarkStart w:id="27" w:name="entidades-principais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">users</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">persons</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">companies</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">company_users</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">roles</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">permissions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">role_permissions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">user_permissions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">system_settings</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1006" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">audit_logs</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="27" />
+    <w:bookmarkEnd w:id="28" />
+    <w:bookmarkStart w:id="31" w:name="Xa2c7df359428660019d0042a14a03e04d97ce86" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.2 Módulo de Gestão da Própria Empresa Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Esse módulo é o administrativo interno da própria Lumerixa como empresa.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="29" w:name="áreas" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Áreas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">financeiro interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">comercial interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">marketing interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contratos internos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">RH interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">projetos internos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">suporte e implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">parceiros e afiliados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1007" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">governança</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="29" />
+    <w:bookmarkStart w:id="30" w:name="funções" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funções</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controlar receitas recorrentes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controlar despesas da operação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhar CAC, LTV, churn, MRR, ARR</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gerir equipe interna</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gerir onboarding dos clientes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gerir contratos, SLAs e propostas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controlar demandas de implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1008" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhar tickets e suporte</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="30" />
+    <w:bookmarkEnd w:id="31" />
+    <w:bookmarkStart w:id="35" w:name="módulo-de-clientes-saas" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.3 Módulo de Clientes SaaS</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por administrar a base de clientes da plataforma.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="32" w:name="funcionalidades-1" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de conta principal</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">status do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">classificação do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">estágio de onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">plano contratado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos ativos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">saúde da conta</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">risco de churn</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">observações estratégicas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1009" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">documentos e anexos</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="32" />
+    <w:bookmarkStart w:id="33" w:name="status-sugeridos" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Status sugeridos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">lead</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">negociação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ativo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">suspenso</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cancelado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">inadimplente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1010" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">enterprise em acompanhamento</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="33" />
+    <w:bookmarkStart w:id="34" w:name="entidades-principais-1" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">clients</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">client_profiles</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">client_status_histories</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">client_health_scores</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">client_notes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1011" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">client_documents</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="34" />
+    <w:bookmarkEnd w:id="35" />
+    <w:bookmarkStart w:id="40" w:name="módulo-de-planos-assinaturas-e-billing" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.4 Módulo de Planos, Assinaturas e Billing</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por monetização e controle contratual.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="36" w:name="funcionalidades-2" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de planos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de add-ons</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tabela de limites por plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ciclo de cobrança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">assinatura por cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">upgrade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">downgrade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">suspensão</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">reativação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico de cobrança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gestão de faturas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cupons e campanhas comerciais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1012" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cálculo de excedentes</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="36" />
+    <w:bookmarkStart w:id="37" w:name="planos-base" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Planos base</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1013" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Start</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1013" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Growth</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1013" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Scale</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1013" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Enterprise</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="37" />
+    <w:bookmarkStart w:id="38" w:name="limites-por-plano" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Limites por plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">quantidade de usuários</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">quantidade de empresas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos liberados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">armazenamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">volume de registros</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">uso de IA</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">uso de API</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1014" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">suporte incluído</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="38" />
+    <w:bookmarkStart w:id="39" w:name="entidades-principais-2" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">plans</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">plan_modules</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">plan_limits</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">subscriptions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">subscription_items</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">invoices</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">payments</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">coupons</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1015" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">overage_rules</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="39" />
+    <w:bookmarkEnd w:id="40" />
+    <w:bookmarkStart w:id="44" w:name="módulo-de-módulos-e-licenciamento" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.5 Módulo de Módulos e Licenciamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por ativar e desativar recursos do produto.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="41" w:name="funcionalidades-3" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">catálogo de módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">submódulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">recursos internos por módulo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">dependências entre módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">regras de ativação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">feature flags</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ativação por tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ativação por plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1016" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ativação por contrato customizado</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="41" />
+    <w:bookmarkStart w:id="42" w:name="módulos-iniciais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Módulos iniciais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Core</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">CRM</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ERP</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">RH</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Jurídico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Projetos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Marketing</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">IA</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1017" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Personalização</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="42" />
+    <w:bookmarkStart w:id="43" w:name="entidades-principais-3" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1018" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">modules</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1018" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">module_features</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1018" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tenant_modules</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1018" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">feature_flags</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1018" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">module_dependencies</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="43" />
+    <w:bookmarkEnd w:id="44" />
+    <w:bookmarkStart w:id="48" w:name="módulo-comercial-da-lumerixa" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.6 Módulo Comercial da Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável pelo funil de venda da própria empresa.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="45" w:name="funcionalidades-4" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">leads B2B</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">pipeline comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">origem do lead</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">propostas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">reuniões</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">follow-up</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">diagnóstico empresarial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">recomendação de plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fechamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1019" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">conversão em cliente</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="45" />
+    <w:bookmarkStart w:id="46" w:name="etapas-sugeridas" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Etapas sugeridas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">lead novo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">qualificação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">diagnóstico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">proposta</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">negociação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fechamento ganho</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1020" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fechamento perdido</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="46" />
+    <w:bookmarkStart w:id="47" w:name="entidades-principais-4" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sales_leads</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sales_pipelines</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sales_stages</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">proposals</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">meetings</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">followups</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1021" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">lead_sources</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="47" />
+    <w:bookmarkEnd w:id="48" />
+    <w:bookmarkStart w:id="52" w:name="módulo-de-implantação-e-onboarding" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.7 Módulo de Implantação e Onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por colocar o cliente dentro da operação.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="49" w:name="funcionalidades-5" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">checklist de onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">configuração inicial do tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ativação de módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">configuração de equipes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">parametrização</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">importação de dados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">treinamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhamento inicial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1022" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">aceite de implantação</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="49" />
+    <w:bookmarkStart w:id="50" w:name="etapas-sugeridas-1" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Etapas sugeridas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro aprovado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ambiente criado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">configuração inicial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">migração/importação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">treinamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">operação assistida</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1023" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding concluído</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="50" />
+    <w:bookmarkStart w:id="51" w:name="entidades-principais-5" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1024" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding_processes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1024" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding_tasks</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1024" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding_templates</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1024" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding_notes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1024" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">data_import_jobs</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="51" />
+    <w:bookmarkEnd w:id="52" />
+    <w:bookmarkStart w:id="55" w:name="módulo-de-suporte-e-customer-success" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.8 Módulo de Suporte e Customer Success</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por sustentação e retenção.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="53" w:name="funcionalidades-6" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">abertura de tickets</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">classificação por prioridade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">classificação por módulo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">SLA por plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">base de conhecimento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">health score do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhamento de uso</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">alertas de risco</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">campanhas de retenção</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1025" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">NPS e satisfação</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="53" />
+    <w:bookmarkStart w:id="54" w:name="entidades-principais-6" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">support_tickets</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ticket_messages</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ticket_categories</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">slas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">customer_success_playbooks</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nps_surveys</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1026" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">churn_risk_flags</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="54" />
+    <w:bookmarkEnd w:id="55" />
+    <w:bookmarkStart w:id="58" w:name="módulo-financeiro-interno-da-lumerixa" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.9 Módulo Financeiro Interno da Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável pelo financeiro da própria empresa.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="56" w:name="funcionalidades-7" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contas a pagar</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contas a receber</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">receitas recorrentes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">despesas operacionais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">comissões</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fluxo de caixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">centros de custo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">relatórios gerenciais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1027" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">previsões financeiras</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="56" />
+    <w:bookmarkStart w:id="57" w:name="entidades-principais-7" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">internal_accounts_payable</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">internal_accounts_receivable</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cash_flows</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">financial_categories</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cost_centers</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1028" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">commissions</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="57" />
+    <w:bookmarkEnd w:id="58" />
+    <w:bookmarkStart w:id="61" w:name="módulo-jurídico-e-compliance" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.10 Módulo Jurídico e Compliance</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por contratos, políticas e conformidade.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="59" w:name="funcionalidades-8" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contratos com clientes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">termos de uso</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">políticas de privacidade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">aceite eletrônico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">versionamento contratual</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">incidentes LGPD</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">trilha de auditoria</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gestão documental</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1029" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">políticas internas</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="59" />
+    <w:bookmarkStart w:id="60" w:name="entidades-principais-8" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contracts</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contract_versions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">legal_acceptances</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">privacy_consents</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">compliance_incidents</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1030" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">policy_documents</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="60" />
+    <w:bookmarkEnd w:id="61" />
+    <w:bookmarkStart w:id="64" w:name="módulo-rh-interno" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.11 Módulo RH Interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável pela equipe da Lumerixa.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="62" w:name="funcionalidades-9" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cadastro de colaboradores</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cargos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">departamentos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">permissões internas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">jornada</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">metas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">performance</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">trilha de treinamentos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1031" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico do colaborador</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="62" />
+    <w:bookmarkStart w:id="63" w:name="entidades-principais-9" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">employees</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">departments</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">job_positions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">employee_histories</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">performance_reviews</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1032" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">trainings</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="63" />
+    <w:bookmarkEnd w:id="64" />
+    <w:bookmarkStart w:id="67" w:name="módulo-projetos-internos" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.12 Módulo Projetos Internos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por roadmap e execução interna.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="65" w:name="funcionalidades-10" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funcionalidades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">backlog</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sprints</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tarefas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">prioridades</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">roadmap</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">squads</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">entregas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">status técnico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1033" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">produtividade</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="65" />
+    <w:bookmarkStart w:id="66" w:name="entidades-principais-10" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Entidades principais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1034" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">projects</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1034" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">project_tasks</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1034" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">project_boards</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1034" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sprints</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1034" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">roadmap_items</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="66" />
+    <w:bookmarkEnd w:id="67" />
+    <w:bookmarkStart w:id="70" w:name="módulo-ia-administrativa" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">2.13 Módulo IA Administrativa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Responsável por inteligência operacional.</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="68" w:name="funções-1" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Funções</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">resumo executivo da operação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">alertas de inadimplência</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">risco de churn</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sugestão de upsell</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">leitura de uso de módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">gargalos de suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">análise de performance comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1035" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">priorização de clientes estratégicos</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="68" />
+    <w:bookmarkStart w:id="69" w:name="limites" />
+    <w:p><w:pPr><w:pStyle w:val="Heading3" /></w:pPr><w:r><w:t xml:space="preserve">Limites</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1036" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nunca cancelar cliente automaticamente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1036" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nunca mudar plano automaticamente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1036" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nunca alterar dados críticos sem confirmação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1036" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nunca misturar dados entre empresas</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="69" />
+    <w:bookmarkEnd w:id="70" />
+    <w:bookmarkEnd w:id="71" />
+    <w:bookmarkStart w:id="75" w:name="perfis-do-sistema" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">3. Perfis do sistema</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="72" w:name="perfis-internos-da-lumerixa" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">3.1 Perfis internos da Lumerixa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Super Admin</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Diretor</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Financeiro</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Customer Success</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Jurídico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">RH</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Produto</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Desenvolvedor</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1037" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Analista</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="72" />
+    <w:bookmarkStart w:id="73" w:name="perfis-do-cliente" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">3.2 Perfis do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1038" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Admin do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1038" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Gestor</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1038" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Operacional</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1038" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Visualizador</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="73" />
+    <w:bookmarkStart w:id="74" w:name="regra-de-acesso" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">3.3 Regra de acesso</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Toda permissão deve obedecer:</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">quem é o usuário</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">a qual empresa pertence</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">em qual tenant opera</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">qual papel possui</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">qual módulo tenta acessar</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1039" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">qual ação deseja executar</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="74" />
+    <w:bookmarkEnd w:id="75" />
+    <w:bookmarkStart w:id="86" w:name="telas-principais-do-sistema" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">4. Telas principais do sistema</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="76" w:name="dashboard-executivo" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.1 Dashboard executivo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">MRR</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ARR</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">clientes ativos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">inadimplentes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding em andamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tickets abertos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">uso da plataforma</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">churn previsto</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1040" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">upsell sugerido</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="76" />
+    <w:bookmarkStart w:id="77" w:name="gestão-de-clientes" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.2 Gestão de clientes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">listagem</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">perfil 360 do cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">plano atual</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos ativos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico financeiro</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico de suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1041" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">saúde da conta</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="77" />
+    <w:bookmarkStart w:id="78" w:name="gestão-de-empresas" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.3 Gestão de empresas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">empresas por cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">status</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contexto ativo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">documentos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">responsáveis</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1042" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">limites</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="78" />
+    <w:bookmarkStart w:id="79" w:name="gestão-de-usuários" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.4 Gestão de usuários</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">usuários globais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">usuários por empresa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">convites</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">papéis</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">permissões</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1043" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs de acesso</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="79" />
+    <w:bookmarkStart w:id="80" w:name="gestão-de-planos" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.5 Gestão de planos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1044" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">planos cadastrados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1044" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">comparação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1044" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">recursos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1044" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">limites</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1044" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">add-ons</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="80" />
+    <w:bookmarkStart w:id="81" w:name="billing" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.6 Billing</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1045" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">assinaturas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1045" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">faturas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1045" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">pagamentos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1045" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">inadimplência</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1045" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ajuste manual</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="81" />
+    <w:bookmarkStart w:id="82" w:name="módulos" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.7 Módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1046" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">catálogo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1046" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">dependências</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1046" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tenants ativos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1046" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">feature flags</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="82" />
+    <w:bookmarkStart w:id="83" w:name="implantação" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.8 Implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1047" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fila de onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1047" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">checklist</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1047" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">responsável</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1047" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">progresso</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="83" />
+    <w:bookmarkStart w:id="84" w:name="suporte" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.9 Suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1048" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tickets</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1048" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">SLA</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1048" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">prioridade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1048" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulo afetado</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="84" />
+    <w:bookmarkStart w:id="85" w:name="auditoria" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">4.10 Auditoria</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1049" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1049" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">eventos críticos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1049" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico de alterações</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1049" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">exportações</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="85" />
+    <w:bookmarkEnd w:id="86" />
+    <w:bookmarkStart w:id="91" w:name="fluxos-críticos-do-sistema" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">5. Fluxos críticos do sistema</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="87" w:name="fluxo-de-novo-cliente" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">5.1 Fluxo de novo cliente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">lead entra no CRM interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">comercial qualifica</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">proposta é emitida</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cliente fecha</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">assinatura é criada</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tenant é provisionado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos são ativados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">onboarding começa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cliente entra em operação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1050" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">customer success acompanha evolução</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="87" />
+    <w:bookmarkStart w:id="88" w:name="fluxo-de-upgrade" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">5.2 Fluxo de upgrade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cliente solicita ou IA sugere upgrade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">comercial ou sistema valida necessidade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nova precificação é aplicada</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cobrança é ajustada</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">limites e módulos são expandidos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1051" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">log obrigatório</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="88" />
+    <w:bookmarkStart w:id="89" w:name="fluxo-de-inadimplência" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">5.3 Fluxo de inadimplência</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">fatura vence</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sistema gera alerta</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cliente recebe aviso</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">regras de tolerância são aplicadas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">conta pode entrar em restrição</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1052" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">reativação ocorre após regularização</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="89" />
+    <w:bookmarkStart w:id="90" w:name="X8cef83b8300274c76dc13cce6cc835fae875ddd" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">5.4 Fluxo de abertura de empresa dentro do tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">usuário admin seleciona criação de empresa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sistema valida plano</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">sistema valida limite de empresas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">empresa é criada</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">contexto novo fica disponível</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1053" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs são gerados</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="90" />
+    <w:bookmarkEnd w:id="91" />
+    <w:bookmarkStart w:id="96" w:name="regras-de-negócio-administrativas" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">6. Regras de negócio administrativas</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="92" w:name="regras-gerais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">6.1 Regras gerais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1054" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">toda operação começa por um usuário autenticado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1054" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">toda operação empresarial exige contexto ativo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1054" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">nenhum dado de tenant pode vazar para outro tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1054" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">histórico nunca deve ser perdido</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1054" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ações críticas exigem confirmação</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="92" />
+    <w:bookmarkStart w:id="93" w:name="regras-comerciais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">6.2 Regras comerciais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1055" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cliente sem assinatura ativa não opera plenamente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1055" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">downgrade não pode apagar dados silenciosamente</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1055" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">upgrade pode liberar recursos após confirmação de cobrança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1055" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">customizações devem ser tratadas como contrato adicional</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="93" />
+    <w:bookmarkStart w:id="94" w:name="regras-operacionais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">6.3 Regras operacionais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1056" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">todo ticket deve ter prioridade e categoria</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1056" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">todo onboarding deve ter responsável</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1056" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">toda proposta deve ter validade</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1056" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">toda fatura deve ter status rastreável</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1056" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">todo contrato deve ter versão</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="94" />
+    <w:bookmarkStart w:id="95" w:name="regras-de-segurança" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">6.4 Regras de segurança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs obrigatórios em toda ação relevante</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">autenticação forte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controle de sessão</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">limite de requisições</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">segregação de ambientes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1057" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">criptografia de dados sensíveis</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="95" />
+    <w:bookmarkEnd w:id="96" />
+    <w:bookmarkStart w:id="100" w:name="indicadores-do-sistema-administrativo" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">7. Indicadores do sistema administrativo</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="97" w:name="indicadores-de-negócio" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">7.1 Indicadores de negócio</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">MRR</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ARR</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">CAC</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">LTV</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">churn</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">ticket médio</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1058" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">expansão por cliente</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="97" />
+    <w:bookmarkStart w:id="98" w:name="indicadores-operacionais" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">7.2 Indicadores operacionais</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tempo de onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tempo médio de implantação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tempo médio de atendimento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tickets por módulo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">inadimplência</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1059" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">uso por plano</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="98" />
+    <w:bookmarkStart w:id="99" w:name="indicadores-de-produto" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">7.3 Indicadores de produto</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1060" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">módulos mais usados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1060" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">recursos mais usados</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1060" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">taxa de ativação</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1060" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">retenção por módulo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1060" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">uso da IA</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="99" />
+    <w:bookmarkEnd w:id="100" />
+    <w:bookmarkStart w:id="104" w:name="X16d612b2bd6afe0a04646d423d993cd2dfc507d" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">8. Estrutura recomendada para MVP administrativo</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="101" w:name="fase-1" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Fase 1</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Core</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Clientes SaaS</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Planos e Billing</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Módulos e licenciamento</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Comercial interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1061" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Dashboard executivo</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="101" />
+    <w:bookmarkStart w:id="102" w:name="fase-2" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Fase 2</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1062" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Financeiro interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1062" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Jurídico e contratos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1062" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">RH interno</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1062" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Projetos internos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1062" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">relatórios avançados</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="102" />
+    <w:bookmarkStart w:id="103" w:name="fase-3" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Fase 3</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1063" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">IA administrativa</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1063" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">automações</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1063" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">motor de health score</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1063" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">portal de parceiros</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1063" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">marketplace de integrações</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="103" />
+    <w:bookmarkEnd w:id="104" />
+    <w:bookmarkStart w:id="105" w:name="estrutura-de-navegação-sugerida" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">9. Estrutura de navegação sugerida</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Dashboard</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Clientes</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Empresas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Usuários</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Planos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Assinaturas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Faturas</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Comercial</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Onboarding</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Suporte</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Financeiro</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Jurídico</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">RH</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Projetos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Auditoria</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1064" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Configurações</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="105" />
+    <w:bookmarkStart w:id="109" w:name="direção-arquitetural-recomendada" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">10. Direção arquitetural recomendada</w:t></w:r></w:p>
+    <w:bookmarkStart w:id="106" w:name="backend" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Backend</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">Laravel</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">arquitetura modular por domínio</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">autenticação segura</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">policies e permissions</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">logs e auditoria</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">filas e eventos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1065" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">billing desacoplado</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="106" />
+    <w:bookmarkStart w:id="107" w:name="frontend" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Frontend</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1066" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">React com Inertia</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1066" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">layout administrativo responsivo</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1066" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">páginas por domínio</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1066" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">componentes reutilizáveis</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1066" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">tabelas, filtros, dashboards e formulários padronizados</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="107" />
+    <w:bookmarkStart w:id="108" w:name="banco" />
+    <w:p><w:pPr><w:pStyle w:val="Heading2" /></w:pPr><w:r><w:t xml:space="preserve">Banco</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1067" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">MySQL ou PostgreSQL</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1067" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">UUID como chave primária</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1067" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">isolamento por tenant</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1067" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">auditoria e soft delete quando aplicável</w:t></w:r></w:p>
+    <w:p><w:r><w:pict><v:rect style="width:0;height:1.5pt" o:hralign="center" o:hrstd="t" o:hr="t" /></w:pict></w:r></w:p>
+    <w:bookmarkEnd w:id="108" />
+    <w:bookmarkEnd w:id="109" />
+    <w:bookmarkStart w:id="110" w:name="entregável-final-esperado" />
+    <w:p><w:pPr><w:pStyle w:val="Heading1" /></w:pPr><w:r><w:t xml:space="preserve">11. Entregável final esperado</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">O sistema administrativo da Lumerixa deve permitir que a empresa:</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">administre sua própria operação com visão de negócio</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">administre toda a base de clientes SaaS</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">controle faturamento, planos e módulos</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">acompanhe onboarding, suporte e retenção</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">opere em contexto multiempresa com segurança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="Compact" /><w:numPr><w:ilvl w:val="0" /><w:numId w:val="1068" /></w:numPr></w:pPr><w:r><w:t xml:space="preserve">cresça sem perder governança</w:t></w:r></w:p>
+    <w:p><w:pPr><w:pStyle w:val="FirstParagraph" /></w:pPr><w:r><w:t xml:space="preserve">Esse é o núcleo para transformar a Lumerixa em uma empresa de software com operação real, escalável e profissional.</w:t></w:r></w:p>
+    <w:bookmarkEnd w:id="110" />
+    <w:sectPr>
+      <w:footnotePr>
+        
+                
+        <w:numRestart w:val="eachSect" />
+        
+              
+      </w:footnotePr>
+    </w:sectPr>
+  </w:body>
+</w:document>
