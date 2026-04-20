@@ -4,10 +4,13 @@ use App\Modules\Auth\Application\DTOs\RegisterWorkspaceDTO;
 use App\Modules\Auth\Application\UseCases\RegisterWorkspaceUseCase;
 use App\Modules\Auth\Application\UseCases\ValidateVerificationCodeUseCase;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 class RegistrationTest extends TestCase
 {
+    use RefreshDatabase;
+
     /**
      * Teste Unitário de Fluxo de Cadastro SaaS (Lumerixa OS)
      */
